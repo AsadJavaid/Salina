@@ -36,6 +36,10 @@ Install angular js through npm
 
 Clone projecty through "git clone" command from url
 
+There are two branches "main" and "master".
+Main is default branch. 
+Code is in Master Branch.
+
 run "npm i" for node modules
 
 run "ng serve" to run the project
