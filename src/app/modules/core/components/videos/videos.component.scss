@@ -1,0 +1,46 @@
+.videos {
+    width: 53%;
+    margin-left: 21%;
+    margin-top: 20px;
+    height: 380px;
+    overflow: auto;
+         h2 {
+            font-size: 32px;
+            color: #4b81c1;
+            font-weight: bold;
+            position: relative;
+            &::after {
+                content: "";
+                height: 4px;
+                width: 70px;
+                margin-top: 20px;
+                display: block;
+                background-color: #4b81c1;
+            }
+         }
+         .all-videos {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            .display-video {
+                position: relative;
+                width: 30%;
+                img {
+                    height: 150px;
+                }
+                fa-icon {
+                    position: absolute;
+                    left: 38%;
+                    top: 36%;
+                    background: #ffffff;
+                    padding: 6px 14px;
+                    border-radius: 6px;
+                    cursor: pointer;
+                }
+                h5 {
+                    text-align: center;
+                    margin-top: 10px;
+                }
+            }
+         }
+    }

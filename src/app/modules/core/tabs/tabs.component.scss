@@ -1,0 +1,38 @@
+.tabs {
+    border-radius: 14px;
+    width: 15%;
+    position: fixed;
+    left: 5%;
+    margin-top: 20px;
+
+    .tabs-inner {
+        display: flex;
+        flex-direction: column;
+        border: 1px solid #cecece;
+        border-radius: 14px;
+
+        a {
+            border-bottom: 1px solid #f0f0f0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-decoration: none;
+
+            img {
+                height: 20px;
+                filter: brightness(0.5) invert(0.6);
+            }
+
+            button {
+                background: transparent;
+                width: 60%;
+                text-align: left;
+                margin-left: 20px;
+                border: none;
+                font-size: 14px;
+                padding: 8px 0px;
+                color: #969696;
+            }
+        }
+    }
+}
